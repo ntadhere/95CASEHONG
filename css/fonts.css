@@ -60,6 +60,11 @@
     font-family: monMediumItalic;
     src: url('/font/Montserrat/Montserrat-MediumItalic.ttf') format('truetype');
   }
+  /* ITALIC */
+  @font-face {
+    font-family: monItalic;
+    src: url('/font/Montserrat/Montserrat-Italic.ttf') format('truetype');
+  }
   /* LIGHT ITALIC */
   @font-face {
     font-family: monLightItalic;
