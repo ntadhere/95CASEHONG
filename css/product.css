@@ -1,0 +1,116 @@
+.breadcrumb {
+    font-family: monRegular;
+    font-size: 1.5rem;
+    align-self: center;
+    padding-left: 11rem;
+    padding-right: 1rem;
+    margin: 0;
+}
+.product-body {
+    padding: 1rem 10rem;
+    padding-bottom: 7rem;
+    font-family: monRegular;
+    display: block;
+}
+.product-left {
+    float: left;
+}
+.sm-square {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    width: 100%;
+
+}
+.sm-square img {
+    width: 12rem;
+    aspect-ratio: 1/1 ;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2.5rem;
+}
+.bg-square img {
+    height: 64rem;
+    padding-top: 0.5rem;
+    border-radius: 2rem;
+}
+.txt-right {
+    float: right;
+    padding-left: 5rem;
+}
+.txt-right .text h1 {
+    font-family: monBold;
+    color: #6B71FF;
+    font-size: 2.5rem;
+}
+.txt-right .text h3 {
+    font-family: monLightItalic;
+    color: black;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+.txt-right .text h4 {
+    font-family: monBold;
+    color: black;
+    font-size: 1.4rem;
+}
+.txt-right .text p {
+    font-family: monRegular;
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+.quantity-container {
+    display: flex;
+    align-items: center;
+}
+.txt-right .text .btn {
+    font-family: monBold;
+    color: #FFA4F2;
+    font-size: 1.8rem;
+    height: 2.8rem;
+    margin-bottom: 0px;
+    border-radius: 2vw;
+    background-color: #6B71FF;
+    border-color:#6B71FF;
+}
+.txt-right .text .active {
+    color: #6B71FF;
+    background-color: #FFA4F2;
+    border-color:#FFA4F2;
+    margin-right: 1rem;
+}
+.option {
+    padding-top: 10rem;
+}
+.option p {
+    padding: 0.5rem 0rem;
+}
+.form-select {
+    border-radius: 18px;
+    border: solid 2px #FFA4F2;
+    height: 2.5rem;
+    font: monLight;
+    font-size: 1.4rem;
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none; /* Remove default arrow in Safari */
+    -moz-appearance: none; /* Remove default arrow in Firefox */
+    background: url('/images/ICON/ICONOGRAPHY/CASEHONG_Icons_DOWN.svg') no-repeat right 10px center; /* Add custom arrow and adjust the position of the custom arrow*/
+    background-size: 2.5rem; /* Adjust the size of the arrow */
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+}
+.shipping p {
+    padding: 0;
+}
+.shipping {
+    padding: 4rem 0;
+}
+/* Optional: Add hover and focus styles */
+.form-select:hover {
+    border-color: #6B71FF;
+}
+.option .form-check-input {
+    width: 2rem;
+    height: 2rem;
+    aspect-ratio: 1/1;
+    margin: 0rem 0.5rem;
+}

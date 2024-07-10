@@ -1,0 +1,119 @@
+/* LIST CARDS OF THE SECTION */
+.recommend {
+    display: block;
+}
+.recommend .productList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates four columns of equal width */
+    gap: 1.5rem; /* Adjust spacing between cards both vertically and horizontally */
+    margin-left: 16rem; /* Spacing around the entire grid */
+    margin-right: 16rem; /* Spacing around the entire grid */
+}
+.recommend .collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates four columns of equal width */
+    gap: 1.5rem; /* Adjust spacing between cards both vertically and horizontally */
+    margin-left: 16rem; /* Spacing around the entire grid */
+    margin-right: 16rem; /* Spacing around the entire grid */
+    background-color: transparent;
+}
+
+/* EACH CARD AND OVERLAY TEXT */
+.card {
+    background-color: transparent;
+    border-style: none;
+}
+.card-img {
+    display: block; /* Removes any additional space below the image */
+    width: 100%; /* Full width of the container */
+    height: auto;
+    aspect-ratio: 1 / 1; /* Maintains square aspect ratio */
+    border-radius: 2rem; /* Adds border radius */
+}
+.card .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    opacity: 0; /* Start fully transparent */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    border-radius: 2rem; /* Adds border radius */
+
+}
+.card:hover .card-img-overlay {
+    opacity: 1; /* Fully visible on hover */
+}
+
+.overlay-text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    pointer-events: none; /* Ensures the text does not interfere with interaction */
+}
+
+.overlay-text h2,p {
+    color: #FFA4F2; /* Change this to the desired text color */
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+}
+.overlay-text h2 {
+    font-family: monBold;
+}
+.overlay-text p {
+    font-family: monLightItalic;
+    font-size: 2rem;
+
+}
+
+/* ---------------------- 
+BUTTON XEM TIẾP HÔNG
+----------------------- */
+.xemtiephong {
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+}
+/* NEW ARRIVAL */
+.xemtiephong .btn-primary1{
+    color: white;
+    text-decoration: underline;
+    background-color: #6B71FF;
+    border-color: #6B71FF;
+    border-radius: 9px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+/* BEST SELLER */
+.xemtiephong .btn-primary2{
+    color: #6B71FF;
+    text-decoration: underline;
+    background-color: #FFA4F2;
+    border-color: #FFA4F2;
+    border-radius: 9px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+/* COLLECTION */
+.xemtiephong .btn-primary3{
+    color: #FFA4F2;
+    text-decoration: underline;
+    background-color: #FFFDC2;
+    border-color: #FFFDC2;
+    border-radius: 9px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+
+}
+.btn {
+    padding: 0;
+    font-family: monSemiBoldItalic;
+}

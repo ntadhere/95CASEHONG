@@ -1,0 +1,295 @@
+.bodyPg {
+    display: block;
+    background-color: white;
+    padding-top: 2rem;
+}
+/* RIGHT SIDE FOR THE PRODUCTS */
+.product-right {
+    float: right;
+    width: 83%;
+    height: 100%;
+    /* border-style: solid ;
+    border-width: 1px; */
+}
+
+/* COLLECTION NAME */
+.collection-name {
+    font-family: 'Trust';
+    font-size: 8rem;
+    color: #6B71FF;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* Product list */
+.productList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates four columns of equal width */
+    gap: 3.5rem;
+    /* Adjust spacing between cards both vertically and horizontally */
+    margin: 0 5rem;
+    /* Spacing around the entire grid */
+
+}
+
+.best-seller .card-img {
+    display: block;
+    /* Removes any additional space below the image */
+    width: 100%;
+    /* Full width of the container */
+    height: auto;
+    aspect-ratio: 1 / 1;
+    /* Maintains square aspect ratio */
+}
+
+.product-right .card-name {
+    font-family: monBold;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.product-right .card-category {
+    font-family: monRegular;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.product-right .card-price {
+    font-family: monLightItalic;
+    font-size: 1.3rem;
+}
+
+/* PAGINATION */
+.pagination .page-link {
+    font-family: monBold;
+    font-size: 1.7rem;
+    color: #FFA4F2;
+    border: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.page-link img {
+    width: 3rem;
+    /* Adjust the size as needed */
+    height: 3rem;
+    /* Adjust the size as needed */
+}
+
+/* LEFT SIDE FOR THE FILTER */
+.filter-left {
+    float: left;
+    width: 15%;
+    height: auto;
+}
+
+.filter-box {
+    height: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 13px;
+    border-color: #6B71FF;
+    margin-left: 3rem;
+
+}
+
+.filter-left button {
+    width: 72px;
+    height: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    aspect-ratio: 75 / 15;
+}
+
+
+.filter-left h1 {
+    padding: 2rem 1rem;
+    padding-bottom: 0px;
+    font-family: monSemiBold;
+    font-size: 1.5rem;
+    color: #6B71FF;
+}
+
+.filter-left h1 a {
+    padding: 1rem;
+    font-family: monMediumItalic;
+    font-size: 1rem;
+    color: #6B71FF;
+}
+
+.form-check-label {
+    font-family: monRegular;
+    color: #6B71FF;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.form-check-input {
+    border-color: #6B71FF;
+    width: 2rem;
+    height: 2rem;
+}
+
+.form-check {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.form-check-input:checked {
+    background: #6B71FF;
+}
+
+.check-black:checked[type=checkbox] {
+    background-image: url('/images/ICON/ICONOGRAPHY/blue-check.svg') !important;
+}
+
+.color {
+    grid-template-columns: repeat(5, 1fr);
+    /* Creates four columns of equal width */
+}
+
+.color .form-check-input {
+    margin-left: 1rem;
+    /* Spacing around the entire grid */
+    margin-bottom: 0.5rem;
+}
+.pagination {
+    padding: 4rem 0;
+}
+
+/* SLIDE RANGER */
+.range-slider {
+    position: relative;
+    width: 100%;
+    height: 0.5rem;
+    margin: 2rem 0;
+    background-color: #6B71FF;
+}
+
+.slider-track {
+    height: 100%;
+    position: absolute;
+    background-color: #FFA4F2;
+}
+
+/* merge two slider */
+.range-slider input {
+    position: absolute;
+    width: 100%;
+    background: none;
+    pointer-events: none;
+    top: 50%;
+    transform: translateY(-50%);
+    appearance: none;
+}
+
+/* targets the thumb of a range input in browsers (such as Chrome and Safari)  */
+input[type="range"]::-webkit-slider-thumb {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border: 0.5rem solid #FFA4F2;
+    background: #FFA4F2;
+    pointer-events: auto;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: 0 .125rem .5625rem -0.125rem rgba(0, 0, 0, .25)
+}
+
+/* targets the thumb of a range input in Mozilla Firefox */
+input[type="range"]::-moz-range-thumb {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border: 0.5rem solid #FFA4F2;
+    background: #FFA4F2;
+    pointer-events: auto;
+    -moz-appearance: none; /* used to reset the defualt appearance of an element in Mozilla Firefox browser*/
+    cursor: pointer;
+    box-shadow: 0 .125rem .5625rem -0.125rem rgba(0, 0, 0, .25)
+}
+
+.tooltip {
+    padding: .25rem .5rem;
+    border: 0;
+    background: #FFA4F2;
+    color: #fff;
+    font-size: .75rem;
+    line-height: 1.2;
+    border-radius: .25rem;
+    bottom: 120%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.min-tooltip {
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    z-index: 10000;
+}
+.max-tooltip {
+    right: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    z-index: 10000;
+}
+.input-box {
+    display: flex;
+}
+.min-box, .max-box {
+    width: 50%;
+}
+.min-box {
+    padding-right: .5rem;
+    margin-right: .5rem;
+}
+
+.input-wrap {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: strethch;
+    width: 100%
+}
+
+.input-addon {
+    display: flex;
+    align-items: center;
+    padding: 0.625rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #FFA4F2;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 1px solid #6B71FF;
+    border-radius: .25rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.input-filed {
+    margin-left: -1px;
+    padding: .42rrem .75rem;
+    font-size: 0.8rem;
+    border-radius: .25rem;
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-field:focus {
+    outline: none;
+}

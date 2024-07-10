@@ -1,0 +1,37 @@
+.collection {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+.overlay-text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    pointer-events: none; /* Ensures the text does not interfere with interaction */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.overlay-text {
+    color: white; /* Change this to the desired text color */
+    font-size: 3rem; /* Adjust the size as needed */
+    text-align: center;
+}
+.collection .card {
+    border: none;
+}
+.intro-collection .card {
+    width: 130rem;
+    margin-top: 3rem;
+}
+.intro-collection .card img {
+    height: 50rem;
+}
+.intro-collection h2 {
+    font-family: 'Trust';
+    font-size: 8rem !important;
+    color: #FFA4F2;
+}

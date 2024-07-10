@@ -1,0 +1,39 @@
+.accordion {
+    margin: 2rem 25rem;
+    background-color: transparent;
+
+}
+.accordion-header {
+    background-color: transparent;
+    margin: 0;
+}
+.accordion-button {
+    font-family: monExtraBoldItalic;
+    font-size: 1.5rem;
+    color: #FFA4F2;
+    text-align: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: #6B71FF;
+    border-radius: 1.5rem;
+    margin: 1rem 0;
+}
+.accordion-button:not(.collapsed) {
+    color: #FFA4F2;
+    background-color: #6B71FF;
+
+}
+
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after {
+    background: url('/images/ICON/ICONOGRAPHY/CASEHONG_Icons_DOWN.svg');
+    height: 1rem;
+    /* background: none; */
+}
+.accordion-button::after {
+    content: none;
+}
+.accordion-body {
+    font-family: monRegular;
+    font-size: 1.5rem;
+}

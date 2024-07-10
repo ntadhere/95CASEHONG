@@ -1,0 +1,36 @@
+.recommend {
+    background-color: #FFFDC2;
+    display: block;
+}
+.recommend h1 {
+    font-family: monBold;
+    color: #6B71FF;
+    font-size: 2.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.recommend .card {
+    margin: 0 3rem;
+}
+.recommend .productList {
+    margin: 0 7rem;
+    grid-template-columns: repeat(4, 1fr); /* Creates four columns of equal width */
+}
+.recommend .text-center {
+    background-color: #FFFDC2;
+}
+.recommend .card-name {
+    font-family: monBold;
+    font-size: 1.3rem;
+    margin: 0;
+}
+.recommend .card-category {
+    font-family: monRegular;
+    font-size: 1.3rem;
+    margin: 0;
+}
+.recommend .card-price {
+    font-family: monLightItalic;
+    font-size: 1.3rem;
+}
