@@ -1,0 +1,61 @@
+/* Modify text */
+/* LÀ AI */
+.la-ai h4,
+.lam-gi h4 {
+    font-family: monRegular;
+    color: white;
+    font-size: 2rem;
+    width: 69rem;
+    border: 1px solid #FFA4F2;
+    border-radius: 9rem;
+    background-color: #FFA4F2;
+    padding: 4rem;
+    margin: 0 20rem;
+}
+.la-ai strong {
+    font-family: 'Trust';
+    font-size: 2rem;
+    color: #6B71FF;
+}
+.la-ai .mascot-me {
+    transform: rotate(15deg);
+    margin: 2rem 61rem 0 61rem;
+
+}
+/* LÀM GÌ */
+.lam-gi {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.lam-gi h4 {
+    width: 58rem;
+    border-color: #6B71FF;
+    background-color: #6B71FF;
+}
+.lam-gi h2 {
+    font-family: 'Trust';
+    font-size: 5rem;
+    color: #FFA4F2;
+    align-self: end;
+    padding: 20rem 28rem 0 2rem;
+}
+.lam-gi .mascot-me2 {
+    transform: rotate(-15deg);
+}
+/* ỦNG HỘ */
+.ung-ho {
+    color: #6B71FF;
+    font-family: monSemiBoldItalic;
+}
+.ung-ho h3 {
+    font-size: 4rem;
+    padding: 2rem 3rem;
+}
+.ung-ho h4 {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+.ung-ho .logo {
+    width: 50rem;
+}

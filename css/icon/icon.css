@@ -21,17 +21,29 @@ MASCOT
     z-index: 10000;
 }
 
-.mascot-me {
+.mascot-me,
+.mascot-me2 {
     width: 12rem;
     height: auto;
     padding-top: 3rem;
     z-index: 1000;
 }
 
+.mascot-me2 {
+    width: 15rem;
+}
+
 .mascot-lg {
     width: 20rem;
     height: auto;
     padding-top: 11rem;
+}
+
+.mascot-lg2 {
+    width: 35rem;
+}
+.mascot-lg3 {
+    width: 40rem;
 }
 
 .mascot-container {
