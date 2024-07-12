@@ -1,0 +1,53 @@
+.dot {
+    height: 35rem;
+    width: 35rem;
+    background-color: #FFA4F2;
+    margin: 5rem 0 0 10rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.information {
+    padding: 5rem;
+}
+
+.information h2 {
+    font-family: monItalic;
+    font-size: 1.5rem;
+    color: #6B71FF;
+    padding: 0 0 1rem 2rem;
+}
+
+.fill {
+    font-family: monExtraBoldItalic;
+    font-size: 2.8rem;
+    text-align: center;
+    color: #6B71FF;
+    background-color: #FFA4F2;
+    width: 30rem;
+    height: 4rem;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    margin: 1rem 2rem;
+}
+
+.blank {
+    font-family: monRegular;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    /* Horizontally center the text */
+    border: #6B71FF dashed 0.2rem;
+    width: 50rem;
+    height: 4.5rem;
+    border-radius: 3rem;
+    margin: 1rem 0;
+    padding: 0 3rem;
+}
+
+.note {
+    height: 25rem;
+    align-items: start;
+    /* Horizontally center the text */
+    padding-top: 1rem;
+}
