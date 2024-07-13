@@ -1,0 +1,8 @@
+.section {
+    font-family: monBold;
+    font-size: 1.5rem;
+    color: #6B71FF;
+    background-color: #FFA4F2;
+    border-radius: 4rem;
+    padding: 1rem;
+}

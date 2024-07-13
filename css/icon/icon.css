@@ -39,6 +39,11 @@ MASCOT
     padding-top: 11rem;
 }
 
+/* use in account page */
+.mascot-lg1 {
+    width: 28rem;
+    padding: 1rem;
+}
 .mascot-lg2 {
     width: 35rem;
 }
