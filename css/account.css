@@ -55,13 +55,13 @@
     /* Horizontally center the text */
     padding-top: 1rem;
 }
-.cart-action {
+.account-action {
     margin-top: 5rem;
 }
-
+/* EDIT/SAVE BUTTON */
 .action {
     height: 3rem;
-    width: 16rem;
+    width: 20rem;
     border-radius: 2vw;
     background-color: transparent;
     border: 0.2rem solid #6B71FF;
@@ -77,6 +77,6 @@
     text-align: center;
 }
 
-.buy {
+.save {
     background-color: #6B71FF;
 }

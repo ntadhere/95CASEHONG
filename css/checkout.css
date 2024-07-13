@@ -1,8 +1,99 @@
 .section {
     font-family: monBold;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    text-align: center;
     color: #6B71FF;
     background-color: #FFA4F2;
     border-radius: 4rem;
+    width: 25rem;
     padding: 1rem;
+}
+
+.information {
+    padding: 1rem 2rem 0 0;
+}
+
+.blank {
+    width: 35rem;
+    font-size: 1.2rem;
+}
+
+.cart {
+    display: block;
+    width: 50rem;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.title,.product {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.title h3, .estimate h3 {
+    font-family: monBold;
+    font-size: 1.4rem;
+    color: #6B71FF;
+}
+.product h3 {
+    font-family: monSemiBold;
+    font-size: 1.2rem;
+    color: black;
+}
+.product p {
+    font-family: monRegular;
+    font-size: 1.2rem;
+    color: black;
+}
+.quantity {
+    margin: 0 8rem;
+}
+.quantity p {
+    color: white;
+}
+/* TẠM TÍNH */
+.estimate,.shipping-fee,
+.coupon, .total {
+ display: flex;
+}
+.estimate p {
+    font-family: monSemiBold;
+    font-size: 1.4rem;
+}
+/* PHÍ VẬN CHUYỂN */
+.shipping-fee h3 {
+    font-family: monMedium;
+    font-size: 1.4rem;
+}
+.shipping-fee p {
+    font-family: monRegular;
+    font-size: 1.4rem;
+}
+/* MÃ GIẢM GIÁ */
+.coupon h3 {
+    font-family: monBold;
+    font-size: 1.4rem;
+    align-self: center;
+}
+.coupon p {
+    border: 0.2rem solid #FFA4F2;
+    width: 30rem;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+}
+/* TỔNG CỘNG */
+.total h3 {
+    font-family: monBold;
+    color: #6B71FF;
+    font-size: 1.8rem;
+}
+.total p {
+    font-family: monBold;
+    font-size: 1.8rem;
+}
+/* THANH TOÁN */
+.action h5 {
+    font-family: monBold;
+    font-size: 1.6rem;
+
 }
