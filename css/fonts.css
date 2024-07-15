@@ -40,6 +40,11 @@
     font-family: monSemiBoldItalic;
     src: url('/font/Montserrat/Montserrat-SemiBoldItalic.ttf') format('truetype');
   }
+  /* BOLD ITALIC */
+  @font-face {
+    font-family: monBoldItalic;
+    src: url('/font/Montserrat/Montserrat-BoldItalic.ttf') format('truetype');
+  }
   /* EXTRA BOLD ITALIC */
   @font-face {
     font-family: monExtraBoldItalic;
