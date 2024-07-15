@@ -82,6 +82,11 @@ MASCOT
 .policy-arrow  {
     height: 2rem;
 }
+/* ICON FOR PHƯƠNG THỨC THANH TOÁN
+********************************** */
+.phuongthuc {
+    height: 4rem !important;
+}
 /* ICON FOR FACEBOOK/ZALO */
 /* *************** */
 .icon-contact {

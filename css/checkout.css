@@ -25,75 +25,117 @@
     border-radius: 2rem;
 }
 
-.title,.product {
+.title,
+.product {
     display: flex;
     margin-top: 1rem;
 }
 
-.title h3, .estimate h3 {
+.title h3,
+.estimate h3 {
     font-family: monBold;
     font-size: 1.4rem;
     color: #6B71FF;
 }
+
 .product h3 {
     font-family: monSemiBold;
     font-size: 1.2rem;
     color: black;
 }
-.product p {
+
+.product p, .shipping p {
     font-family: monRegular;
     font-size: 1.2rem;
     color: black;
 }
+
 .quantity {
     margin: 0 8rem;
 }
+
 .quantity p {
     color: white;
 }
+
 /* TẠM TÍNH */
-.estimate,.shipping-fee,
-.coupon, .total {
- display: flex;
+.estimate,
+.shipping-fee,
+.coupon,
+.total {
+    display: flex;
 }
+
 .estimate p {
     font-family: monSemiBold;
     font-size: 1.4rem;
 }
+
 /* PHÍ VẬN CHUYỂN */
 .shipping-fee h3 {
     font-family: monMedium;
     font-size: 1.4rem;
 }
+
 .shipping-fee p {
     font-family: monRegular;
     font-size: 1.4rem;
 }
+
 /* MÃ GIẢM GIÁ */
 .coupon h3 {
     font-family: monBold;
     font-size: 1.4rem;
     align-self: center;
 }
+
 .coupon p {
     border: 0.2rem solid #FFA4F2;
     width: 30rem;
     height: 2.5rem;
     border-radius: 0.8rem;
 }
+
 /* TỔNG CỘNG */
 .total h3 {
     font-family: monBold;
     color: #6B71FF;
     font-size: 1.8rem;
 }
+
 .total p {
     font-family: monBold;
     font-size: 1.8rem;
 }
+
 /* THANH TOÁN */
 .action h5 {
     font-family: monBold;
     font-size: 1.6rem;
+}
 
+/* PHƯƠNG THỨC THANH TOÁN */
+.btn-outline-primary {
+    margin: 0.5rem;
+    padding: 0.5rem !important;
+    height: 4rem;
+    width: 7.5rem;
+    border: none;
+    border-radius: 1rem !important;
+}
+
+.btn-check:active+.btn-outline-primary,
+.btn-check:checked+.btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active {
+    background-color: white;
+    border: 0.2rem solid #6B71FF;
+}
+.btn-outline-primary:hover {
+    background-color: transparent; /* Background color when hovered */
+}
+/* Shipping */
+.shipping  {
+    padding: 4rem 1rem;
 }
