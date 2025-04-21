@@ -1,0 +1,14 @@
+.best-seller {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates four columns of equal width */
+    gap: 10px; /* Adjust spacing between cards both vertically and horizontally */
+    margin-left: 20px; /* Spacing around the entire grid */
+    margin-right: 20px; /* Spacing around the entire grid */
+
+}
+.best-seller .card-img {
+    display: block; /* Removes any additional space below the image */
+    width: 100%; /* Full width of the container */
+    height: auto;
+    aspect-ratio: 1 / 1; /* Maintains square aspect ratio */
+}

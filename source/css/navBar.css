@@ -1,0 +1,196 @@
+/* ----------------
+OVERALL NAVBAR 
+-------------------*/
+.nav {
+  /* điểu chỉnh border top bottom cho navbar*/
+  border-left: none;
+  border-right: none;
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0 !important;
+  /* Stick to the top of the viewport */
+  z-index: 1000 !important;
+  /* Ensures it's on top of other content */
+  width: 100% !important;
+  /* Full width */
+
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* h1 {
+  font-family: 'Trust';
+  font-size: 2.5rem;
+  margin-bottom: 0;
+} */
+
+/* .left-container {
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  z-index: 10;
+  padding-right: 50px;
+  border-style: solid;
+  border-radius: 1px;
+
+} */
+
+/* .navbar-toggler:hover {
+  cursor: pointer;
+} */
+
+.nav-link {
+  color: #FFA4F2;
+  background-color: #6B71FF;
+  text-align: center;
+  font-family: monRegular;
+  font-size: 1.8rem;
+  padding: 1.09rem 0.5rem;
+  width: 1rem;
+}
+
+
+.nav-item {
+  background-color: #6B71FF;
+}
+
+/* change color of text when hove over MENU*/
+.nav-link:focus,
+.nav-link:hover {
+  color: #FFFDC2;
+  font-family: monBold;
+}
+
+/* li {
+  list-style: none;
+} */
+
+/* -----------------------------
+MENU / CATEGORY / SUBCATEGORY 
+--------------------------------*/
+/* move the subcategory to the right (iphone/samsung/dây phụ kiện) */
+.header {
+  font-family: monBold !important;
+}
+
+/* hide the menu (default)*/
+.nav-item .dropdown-menu {
+  display: none;
+  left: 8rem;
+  z-index: 1000;
+  /* Ensure it is above other elements */
+}
+
+.dropdown-menu {
+  border-style: none;
+  margin-top: 2px !important;
+}
+
+/* show the menu when hover */
+.nav-item:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+  display: block;
+  color: white;
+}
+
+/* full width with background with img of giveaway*/
+.dropdown-background {
+  display: none !important;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  background-color: white;
+}
+
+/* When hovering over the nav-container, display the dropdown-background */
+#nav-container:hover~.dropdown-background {
+  display: flex !important;
+  z-index: 100;
+  /* Ensure it is above other elements */
+}
+
+.dropdown-item {
+  color: #6B71FF;
+  font-family: monRegular;
+  font-size: 1.4rem;
+}
+
+/* change color of text when hove over */
+.dropdown-item:focus,
+.dropdown-item:hover {
+  font-family: monBold;
+  background-color: white;
+  color: #6B71FF;
+}
+
+.dropend {
+  margin-left: 2.5rem;
+}
+
+.dropend .dropdown-menu {
+  top: 0;
+  left: 100%;
+  /* move the dropdown menu to the right (style)*/
+}
+
+/* make the 
+ ----------ACCOUNT/CART---------- 
+icon fix with navbar */
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+
+
+/* ----------------
+ SEARCH AREA 
+ -------------------*/
+
+.search-container {
+  margin: 0.9rem 1.5rem;
+  display: flex;
+  align-items: center;
+  background-color: #FFF8B5;
+  border-radius: 9px;
+  padding: 0.2rem 0.5rem;
+  width: 20rem;
+}
+
+.search-container input[type="text"] {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 5px;
+  font-size: 16px;
+  color: #6B71FF;
+  width: 10rem;
+
+}
+
+.search-container .search-icon {
+  width: 4rem;
+  height: 3rem;
+  background-image: url('/images/ICON/ICONOGRAPHY/CASEHONG_Icons_SEARCH.svg');
+  /* Replace with your search icon URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-navbar {
+  border-radius: 6rem;
+  height: 28rem;
+  width: 28rem;
+  padding: 3rem 1.5rem;
+  justify-content: end;
+}

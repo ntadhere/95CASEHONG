@@ -1,0 +1,12 @@
+.carousel-indicators .dot {
+    margin-left: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: 0.2rem solid #FFFDC2;
+    background: transparent;
+}
+.carousel-indicators .active {
+    background: #FFFDC2;
+
+}

@@ -1,0 +1,82 @@
+/* Avatar area */
+.avatar {
+    height: 30rem;
+    width: 30rem;
+    background-color: #FFA4F2;
+    margin: 5rem 0 0 10rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+/* INFORMATION AREA */
+.information {
+    padding: 5rem;
+}
+/* note from seller "để pon nhắn tin confirm đơn hàng" */
+.information h2 {
+    font-family: monItalic;
+    font-size: 1.3rem;
+    color: #6B71FF;
+    padding: 0 0 1rem 2rem;
+}
+
+/* Các mục thông tin vd: Tên/sdt/email/địa chỉ */
+.field {
+    font-family: monExtraBoldItalic;
+    font-size: 2.3rem;
+    text-align: center;
+    color: #6B71FF;
+    background-color: #FFA4F2;
+    width: 25rem;
+    height: 4rem;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    margin: 1rem 2rem;
+}
+
+/* Blank for customer fill in */
+.blank {
+    font-family: monRegular;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    /* Horizontally center the text */
+    border: #6B71FF dashed 0.2rem;
+    width: 55rem;
+    height: 4.5rem;
+    border-radius: 3rem;
+    margin: 1rem 0;
+    padding: 0 3rem;
+}
+
+/* note from customer to seller */
+.note {
+    height: 20rem;
+    align-items: start;
+    /* Horizontally center the text */
+    padding-top: 1rem;
+}
+.account-action {
+    margin-top: 5rem;
+}
+/* EDIT/SAVE BUTTON */
+.action {
+    height: 3rem;
+    width: 20rem;
+    border-radius: 2vw;
+    background-color: transparent;
+    border: 0.2rem solid #6B71FF;
+    margin-left: 0.9rem;
+    padding: 0.375rem .75rem;
+    display: inline-block;
+}
+.action h5 {
+    font-family: monExtraBoldItalic;
+    color: #FFA4F2;
+    font-size: 1.8rem;
+    margin-top: 0.375rem;
+    text-align: center;
+}
+
+.save {
+    background-color: #6B71FF;
+}

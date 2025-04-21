@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLECTION</title>
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script> -->
+    <link rel="stylesheet" href="/css/navBar.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/arrival.css">
+    <link rel="stylesheet" href="/css/headerSection.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/sort.css">
+    <link rel="stylesheet" href="/css/icon/logo.css">
+    <link rel="stylesheet" href="/css/icon/icon.css">
+    <link rel="stylesheet" href="/css/product_list.css">
+    <script src="/js/btnBackToTop.js"></script>
+
+</head>
+
+<body>
+    <!-- Back to top button -->
+    <img src="/images/ICON/ICONOGRAPHY/CASEHONG_Icons_UP.svg" alt="icon_go_up" id="myBtn" onclick="topFunction()"
+        title="Go to top">
+
+    <div id="NavBar-placeholder" class="sticky-top" style="background-color: white;"></div>
+    <script>
+        $(function () {
+            $("#NavBar-placeholder").load("/includes/navBar.html")
+        });
+    </script>
+    <!-- HEADER of Section -->
+    <div class="d-flex" style="background-color: white;">
+        <img class="mascot-line flex-fill align-self-center" src="/images/ICON/MASCOT/CASEHONG_Mascot selected full_weblines2.svg" alt="">
+        <img class="pl_category  align-self-center" src="/images/ICON/ICONOGRAPHY/CASEHONG_Icons_LAUTHAPCAM.svg" alt="">
+        <div class="section-txt align-self-center ">
+            <h1 style="color: #A374FF; font-size:8rem;">LẨU THẬP CẨM</h1>
+        </div>
+        <img class="mascot-line flex-fill align-self-center" src="/images/ICON/MASCOT/CASEHONG_Mascot selected full_weblines2.svg" alt="">
+    </div>
+
+    <!-- body -->
+    <article class="d-flex bodyPg">
+        <section class="filter-left">
+            <div class="filter-box">
+
+                <!-- LOẠI SẢN PHẨM -->
+                <h1>Loại sản phẩm</h1>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Case điện thoại
+                    </label>
+                </div>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Móc khóa
+                    </label>
+                </div>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Pop Socket
+                    </label>
+                </div>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Dây điện thoại
+                    </label>
+                </div>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Đang giảm giá!
+                    </label>
+                </div>
+
+                <!-- MÀU SẮC -->
+                <h1>Màu sắc</h1>
+                <div class="color">
+                    <input class="form-check-input" style="background-color: #FF0000; border-color:#FF0000;"
+                        type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input" style="background-color: #FF8A00; border-color:#FF8A00;"
+                        type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input" style="background-color: #FFE500; border-color:#FFE500;"
+                        type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input" style="background-color: #05FF00; border-color:#05FF00;"
+                        type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input" style="background-color: #0094FF; border-color:#0094FF;"
+                        type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                </div>
+                <div class="color">
+                    <input class="form-check-input" style="background-color: #8F00FF; border-color:#8F00FF;"
+                        type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input" style="background-color: #FF00F5; border-color:#FF00F5;"
+                        type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input check-black" style="background-color: #fff; border-color:#6B71FF;"
+                        type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input" style="background-color: black; border-color:black;" type="checkbox"
+                        id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input" style="background-color: #D9D9D9; border-color:#D9D9D9;"
+                        type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                </div>
+
+                <!-- CHẤT LIỆU -->
+                <h1>Chất liệu</h1>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Nhựa
+                    </label>
+                </div>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Kim loại
+                    </label>
+                </div>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Da
+                    </label>
+                </div>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Silicone
+                    </label>
+                </div>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Khác
+                    </label>
+                </div>
+                <!-- ĐỘ DÀI -->
+                <h1>Độ dài<a>(dành cho dây đeo)</a></h1>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Dài
+                    </label>
+                </div>
+                <div class="form-check flex-fill ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Ngắn
+                    </label>
+                </div>
+                <!-- MỨC GIÁ -->
+                <h1>Mức giá</h1>
+            </div>
+
+            </div>
+            <div class="mascot-container">
+                <img class="mascot-lg" src="/images/ICON/MASCOT/CASEHONG_Mascot_BLANKPINKnotBLACKPINK.svg" alt="">
+                <img class="mascot-me" src="/images/ICON/MASCOT/CASEHONG_Mascot_NƯỚC MẮTEMRƠITRÒCHƠICHƯAHẾT.svg" alt="">
+                <img class="mascot-sm" src="/images/ICON/MASCOT/CASEHONG_Mascot_ÁÀBIETGOINHA.svg" alt="">
+            </div>
+        </section>
+        <!-- START OF PRODUCT LIST FLOAT RIGHT -->
+        <!-- --------------------------------- -->
+        <section class="product-right">
+            <p class="sort d-inline-flex gap-1 d-md-flex justify-content-md-end">
+                <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Mặc
+                    định được rùi!</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="button">Hàng mới nhất</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="button">Được mờ ê mê nhất</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="button">Giá từ Thấp - Cao nha!</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="button">Giá từ Cao - Thấp nha!</button>
+            </p>
+            <div class="card-group productList">
+                <!-- lIST OF PRODUCT -->
+                <div class="card" style="border-style: none;">
+                    <a href="/pages/product.html">
+                        <img src="/images/Dorothy Nguyen.png" class="card-img" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-name">Case tím Colorful</h5>
+                            <p class="card-category">(IPhone 11 & 14 Pro Max)</p>
+                            <p class="card-price">139,000 VND</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="border-style: none;">
+                    <a href="/pages/product.html">
+                        <img src="/images/Dorothy Nguyen.png" class="card-img" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-name">Case tím Colorful</h5>
+                            <p class="card-category">(IPhone 11 & 14 Pro Max)</p>
+                            <p class="card-price">139,000 VND</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="border-style: none;">
+                    <a href="/pages/product.html">
+                        <img src="/images/Dorothy Nguyen.png" class="card-img" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-name">Case tím Colorful</h5>
+                            <p class="card-category">(IPhone 11 & 14 Pro Max)</p>
+                            <p class="card-price">139,000 VND</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="border-style: none;">
+                    <a href="/pages/product.html">
+                        <img src="/images/Dorothy Nguyen.png" class="card-img" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-name">Case tím Colorful</h5>
+                            <p class="card-category">(IPhone 11 & 14 Pro Max)</p>
+                            <p class="card-price">139,000 VND</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="border-style: none;">
+                    <a href="/pages/product.html">
+                        <img src="/images/Dorothy Nguyen.png" class="card-img" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-name">Case tím Colorful</h5>
+                            <p class="card-category">(IPhone 11 & 14 Pro Max)</p>
+                            <p class="card-price">139,000 VND</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="border-style: none;">
+                    <a href="/pages/product.html">
+                        <img src="/images/Dorothy Nguyen.png" class="card-img" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-name">Case tím Colorful</h5>
+                            <p class="card-category">(IPhone 11 & 14 Pro Max)</p>
+                            <p class="card-price">139,000 VND</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Pagination/ Chuyển trang -->
+            <nav aria-label="Page navigation example ">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <img src="/images/ICON/ICONOGRAPHY/CASEHONG_Icons_LEFT.svg" alt="previous">
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <img src="/images/ICON/ICONOGRAPHY/CASEHONG_Icons_RIGHT.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </article>
+    <!-- footer -->
+    <div id="footer-placeholder"></div>
+    <script>
+        $(function () {
+            $("#footer-placeholder").load("/includes/footer.html")
+        });
+    </script>
+</body>
+
+</html>

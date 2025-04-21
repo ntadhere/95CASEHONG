@@ -1,0 +1,19 @@
+.active{
+    background-color: #6B71FF !important;
+    color: white !important;
+}
+
+.sort .btn {
+    border-radius: 2rem;
+    border-color: #6B71FF;
+    font-family: monSemiBold;
+    background-color: white;
+    color: #6B71FF;
+    border-width: 2px;
+    font-size: 1.5rem;
+}
+
+.sort {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}

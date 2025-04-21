@@ -1,0 +1,249 @@
+/* -------------------
+MASCOT 
+---------------------*/
+.mascot-line {
+    margin: 1rem 0;
+    width: 28rem;
+    height: 5rem;
+}
+
+.mascot {
+    width: 5rem;
+    height: 4rem;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+.mascot-sm {
+    width: 6rem;
+    height: auto;
+    z-index: 10000;
+}
+
+.mascot-me,
+.mascot-me2 {
+    width: 12rem;
+    height: auto;
+    padding-top: 3rem;
+    z-index: 1000;
+}
+
+.mascot-me2 {
+    width: 15rem;
+}
+
+.mascot-lg {
+    width: 20rem;
+    height: auto;
+    padding-top: 11rem;
+}
+
+/* use in account page */
+.mascot-lg1 {
+    width: 28rem;
+    padding: 1rem;
+}
+.mascot-lg2 {
+    width: 35rem;
+}
+.mascot-lg3 {
+    width: 40rem;
+}
+
+.mascot-container {
+    position: relative;
+    width: 150px;
+    /* Adjust the width to fit the largest image */
+    margin: 5rem 7rem;
+    /* Center the container */
+
+}
+
+.mascot-container img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+/* ICON FOR SHIPPING
+***************************** */
+.shipping img {
+    height: 5rem;
+    align-self: center;
+    padding-right: 3rem;
+}
+/* ICON FOR CHÍNH SÁCH BẢO MẬT
+***************************** */
+.policy {
+    height: 13rem;
+    padding: 1rem 2rem;
+}
+.policy-arrow  {
+    height: 2rem;
+}
+/* ICON FOR PHƯƠNG THỨC THANH TOÁN
+********************************** */
+.phuongthuc {
+    height: 4rem !important;
+}
+/* ICON FOR FACEBOOK/ZALO */
+/* *************** */
+.icon-contact {
+    width: 2vw;
+    /* Adjust this value to control the initial width relative to the viewport */
+    height: auto;
+    aspect-ratio: 1/1;
+    padding: 1.5rem 1rem;
+}
+
+@media (max-width: 1024px) {
+    .icon-contact {
+        width: 4vw;
+        /* Adjust the width for IPAD screens */
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-contact {
+        width: 6vw;
+        /* Further adjust the width for PHONE screens */
+        padding: 0.5rem;
+    }
+}
+
+/* ICON FOR CATEGORY */
+.category {
+    max-height: 20px;
+    aspect-ratio: 1/1;
+    padding-right: 0.5rem;
+}
+.pl_category {
+    height: 14rem;
+    padding: 2rem 1rem;
+}
+
+/* ICON FOR ACCOUNT/CART  */
+.icon {
+    max-width: 50px;
+    max-height: 30px;
+    aspect-ratio: 1/1;
+    padding-top: 1.25rem;
+}
+
+.search-icon {
+    max-width: 30px;
+    max-height: 30px;
+    aspect-ratio: 1/1;
+}
+
+/* SCROLL BACK TO TOP BUTTON */
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20%;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    width: 3rem;
+}
+
+/* ICON FOR BỘ CÔNG THƯƠNG */
+/* *************** */
+.bocongthuong {
+    width: 300px;
+    /* height: 58px; */
+    aspect-ratio: 184 / 58;
+    padding: 2rem 9rem;
+}
+
+/* ICON FOR Q&A */
+/* *************** */
+.icon-qna {
+    width: 1.5vw;
+    /* Adjust this value to control the initial width relative to the viewport */
+    height: auto;
+    aspect-ratio: 1/1;
+    padding-right: 0.2rem;
+}
+
+@media (max-width: 1024px) {
+    .icon-qna {
+        width: 3vw;
+        /* Adjust the width for IPAD screens */
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-qna {
+        width: 4.5vw;
+        /* Further adjust the width for PHONE screens */
+        padding: 0.5rem;
+    }
+}
+
+/* ICON FOR QUANTITY */
+/* *************** */
+.minus-button {
+    background: url('/images/ICON/ICONOGRAPHY/CASEHONG_Icons_REMOVE.svg') no-repeat right center;
+    /* Add custom arrow and adjust the position of the custom arrow*/
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 0.8rem;
+    margin-left: 0.7rem;
+}
+
+.bonus-button {
+    background: url('/images/ICON/ICONOGRAPHY/CASEHONG_Icons_ADD.svg') no-repeat right center;
+    /* Add custom arrow and adjust the position of the custom arrow*/
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 0.8rem;
+    margin-right: 0.7rem;
+}
+
+.quantity-selector {
+    height: 2vw;
+    width: 8vw;
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid #FFA4F2;
+    /* Pink border */
+    border-radius: 18px;
+    /* Rounded corners */
+    margin: 2rem 1rem;
+    align-self: center;
+}
+
+.quantity-button:focus {
+    outline: none;
+}
+
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    font-family: monMedium;
+    margin: 0 5px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+}
+
+/* ICON FOR TRASH BIN */
+/******************** */
+.trashBin {
+    height: 3rem !important;
+}
